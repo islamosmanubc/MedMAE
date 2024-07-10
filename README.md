@@ -20,14 +20,14 @@ This repository has the implementation for the paper [MedMAE: A Self-Supervised 
 This paper proposes a a large-scale unlabeled medical imaging dataset called MID that is collected from various sources, and a pre-trained backbone that is trained using [MAE](https://arxiv.org/abs/2111.06377) on the proposed dataset.
 MID is collected from the following sources:
 <p align="center">
-    <img src="https://github.com/islamosmanubc/MedMAE/blob/main/figures/mid.png" width="1200"/>
+    <img src="https://github.com/islamosmanubc/MedMAE/blob/main/figures/mid.png" width="800"/>
 </p>
 
 > Figure: A detailed overview of the various datasets collected to form MID the medical imaging dataset.
 
 We used MAE to pre-train a ViT-B backbone on the proposed dataset to allow the proposed model to gain useful knowledge of different types of medical image. Hence, the backbone can be used for any medical imaging task and acheive better performance than existing pre-trained models using ImageNet dataset.
 <p align="center">
-    <img src="https://github.com/islamosmanubc/MedMAE/blob/main/figures/mae.png" width="1200"/>
+    <img src="https://github.com/islamosmanubc/MedMAE/blob/main/figures/mae.png" width="600"/>
 </p>
 
 > Figure: MedMAE architecture: The process is initiated by randomly
