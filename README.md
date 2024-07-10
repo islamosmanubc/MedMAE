@@ -54,7 +54,7 @@ We used the code in the github repository [MAE](https://github.com/facebookresea
 ## Results
 We report the results of our model in comparison with existing models on four different medical imaging tasks:
 * Task 1: automating quality control for CT and MRI scanners (Private dataset)
-* * Task 1.1: CT scans
+  * Task 1.1: CT scans
   * Task 1.2: MRI scans
 * Task 2: breast cancer prediction from CT images (Private dataset)
 * Task 3: pneumonia detection from chest x-ray images (Public dataset: ChestX-ray14)
