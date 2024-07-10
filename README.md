@@ -54,9 +54,11 @@ We used the code in the github repository [MAE](https://github.com/facebookresea
 ## Results
 We report the results of our model in comparison with existing models on four different medical imaging tasks:
 * Task 1: automating quality control for CT and MRI scanners (Private dataset)
+* * Task 1.1: CT scans
+  * Task 1.2: MRI scans
 * Task 2: breast cancer prediction from CT images (Private dataset)
-* Task 3: pneumonia detection from chest x-ray images (Public dataset)
-* Task 4: polyp segmentation in colonscopy sequences (Public dataset)
+* Task 3: pneumonia detection from chest x-ray images (Public dataset: ChestX-ray14)
+* Task 4: polyp segmentation in colonscopy sequences (Public dataset: CVC-ClinicDB)
 
 |          Methods       |      Task 1.1    |     Task 1.2    |    Task 2   |    Task 3    |    Task 4    | 
 | ---------------------- | ---------------- | --------------- | ----------- | ------------ | ------------ |
@@ -66,7 +68,7 @@ We report the results of our model in comparison with existing models on four di
 | `ViT-B`                |      `0.782`     |      `0.727`    |   `0.840`   |   `0.678`    |   `0.635`    |
 | `Swin-B`               |      `0.775`     |      `0.721`    |   `0.813`   |   `0.671`    |   `0.602`    |
 | `MAE`                  |      `0.785`     |      `0.743`    |   `0.843`   |   `0.679`    |   `0.646`    |
-| `MedMAE`               |      `0.902`     |      `0.856`    |   `0.932`   |   `0.701`    |   `0.714`    |
+| `MedMAE(ours)`         |      `0.902`     |      `0.856`    |   `0.932`   |   `0.701`    |   `0.714`    |
 
 
 ## Pre-trained Weights
