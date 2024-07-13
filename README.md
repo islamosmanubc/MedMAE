@@ -74,6 +74,7 @@ We report the results of our model in comparison with existing models on four di
 ## Pre-trained Weights
 The pre-trained weights are available on this link:
 [pre-trained weights](https://drive.google.com/drive/folders/1ym3GdaI69NPhxX4l0ulr1oS0OWoBlhF-?usp=drive_link)
+
 The pre-trained weights on our medical dataset is 'pre_trained_medmae.pth'
 
 To reproduce the reported results on chestX-ray14 and CVC-ClinicDB. First, load the base model 'pre_trained_medmae.pth'. Then, the weights for the target dataset 'chestx-medmae_finetune' or 'cvc-clinicdb_medmae'
