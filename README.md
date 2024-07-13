@@ -36,6 +36,8 @@ masking 75\% of the original image and inputting the remaining 25\% of visible p
 ## Code
 We used the code in the github repository [MAE](https://github.com/facebookresearch/mae) and trained the model for 1000 epochs on the proposed dataset.
 
+For linear probing on your own dataset: run the file 'main_linearprobe_classification.py' set the argument 'data_path' with your dataset folder path and set 'nb_classes' to the number of classes in your dataset and set 'finetune' with the path to the pre-trained file on our dataset (check the Pre-trained weights section)
+
 ## Visualization
 <p align="center">
     <img src="https://github.com/islamosmanubc/MedMAE/blob/main/figures/rec_mae.png" width="800"/>
