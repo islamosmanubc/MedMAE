@@ -1,20 +1,14 @@
 # MedMAE: A Self-Supervised Backbone for Medical Imaging Tasks
 
 This repository has the implementation for the paper [MedMAE: A Self-Supervised Backbone for Medical Imaging Tasks](https://arxiv.org/abs/2111.06377): by Anubhav Gupta, Islam Osman, Mohamed S. Shehata, and John W. Braun.
-```
-@Article{islamosmanmedmae2024,
-  author  = {Anubhav Gupta and Islam Osman and Mohamed S. Shehata and John W. Braun},
-  journal = {arXiv:2111.06377},
-  title   = {MedMAE: A Self-Supervised Backbone for Medical Imaging Tasks},
-  year    = {2024},
-}
-```
+
 #### Summary
 * [Introduction](#introduction)
 * [Code](#code)
 * [Visualization](#visualization)
 * [Results](#results)
 * [Pre-trained Weights](#pre-trained)
+* [Model & Data Usage)(#usage)
 
 ## Introduction
 This paper proposes a a large-scale unlabeled medical imaging dataset called MID that is collected from various sources, and a pre-trained backbone that is trained using [MAE](https://arxiv.org/abs/2111.06377) on the proposed dataset.
@@ -78,6 +72,17 @@ We report the results of our model in comparison with existing models on four di
 ## Pre-trained Weights
 The pre-trained weights are available on this link:
 [pre-trained weights](https://drive.google.com/drive/folders/1ym3GdaI69NPhxX4l0ulr1oS0OWoBlhF-?usp=drive_link)
+
+## Model & Data Usage
+For using the pre-trained model or the proposed data you need to include the following citation:
+```
+@Article{islamosmanmedmae2024,
+  author  = {Anubhav Gupta and Islam Osman and Mohamed S. Shehata and John W. Braun},
+  journal = {arXiv:2111.06377},
+  title   = {MedMAE: A Self-Supervised Backbone for Medical Imaging Tasks},
+  year    = {2024},
+}
+```
 
 The pre-trained weights on our medical dataset is 'pre_trained_medmae.pth'
 
