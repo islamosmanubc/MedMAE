@@ -8,7 +8,7 @@ This repository has the implementation for the paper [MedMAE: A Self-Supervised 
 * [Visualization](#visualization)
 * [Results](#results)
 * [Pre-trained Weights](#pre-trained)
-* [Model & Data Usage](#usage)
+* [Model & Data Usage](#model)
 
 ## Introduction
 This paper proposes a a large-scale unlabeled medical imaging dataset called MID that is collected from various sources, and a pre-trained backbone that is trained using [MAE](https://arxiv.org/abs/2111.06377) on the proposed dataset.
