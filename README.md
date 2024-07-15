@@ -7,7 +7,7 @@ This repository has the implementation for the paper [MedMAE: A Self-Supervised 
 * [Code](#code)
 * [Visualization](#visualization)
 * [Results](#results)
-* [Pre-trained Weights](#pre-trained)
+* [Pre-trained Weights](#pre-trained-weights)
 * [Model & Data Usage](#model)
 
 ## Introduction
