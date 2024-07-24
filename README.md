@@ -1,6 +1,6 @@
 # MedMAE: A Self-Supervised Backbone for Medical Imaging Tasks
 
-This repository has the implementation for the paper [MedMAE: A Self-Supervised Backbone for Medical Imaging Tasks](https://arxiv.org/abs/2111.06377): by Anubhav Gupta, Islam Osman, Mohamed S. Shehata, and John W. Braun.
+This repository has the implementation for the paper [MedMAE: A Self-Supervised Backbone for Medical Imaging Tasks](https://arxiv.org/abs/2407.14784): by Anubhav Gupta, Islam Osman, Mohamed S. Shehata, and John W. Braun.
 
 #### Summary
 * [Introduction](#introduction)
@@ -78,7 +78,7 @@ For using the pre-trained model or the proposed data you need to include the fol
 ```
 @Article{islamosmanmedmae2024,
   author  = {Anubhav Gupta and Islam Osman and Mohamed S. Shehata and John W. Braun},
-  journal = {arXiv:2111.06377},
+  journal = {arXiv:2407.14784},
   title   = {MedMAE: A Self-Supervised Backbone for Medical Imaging Tasks},
   year    = {2024},
 }
