@@ -19,7 +19,7 @@ MID is collected from the following sources:
 > Figure: A detailed overview of the various datasets collected to form MID the medical imaging dataset.
 
 
-The link to download MID is [here](https://doi.org/10.20383/103.01017).
+The link to download MID is [here](https://doi.org/10.20383/103.01017) (COMING SOON!).
 
 We used MAE to pre-train a ViT-B backbone on the proposed dataset to allow the proposed model to gain useful knowledge of different types of medical image. Hence, the backbone can be used for any medical imaging task and acheive better performance than existing pre-trained models using ImageNet dataset.
 <p align="center">
