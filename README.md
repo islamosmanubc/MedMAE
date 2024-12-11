@@ -11,15 +11,15 @@ This repository has the implementation for the paper [MedMAE: A Self-Supervised 
 * [Model & Data Usage](#model&data-usage)
 
 ## Introduction
-This paper proposes a a large-scale unlabeled medical imaging dataset called MID that is collected from various sources, and a pre-trained backbone that is trained using [MAE](https://arxiv.org/abs/2111.06377) on the proposed dataset.
-MID is collected from the following sources:
+This paper proposes a a large-scale unlabeled medical imaging dataset called LUMID that is collected from various sources, and a pre-trained backbone that is trained using [MAE](https://arxiv.org/abs/2111.06377) on the proposed dataset.
+LUMID is collected from the following sources:
 <p align="center">
     <img src="https://github.com/islamosmanubc/MedMAE/blob/main/figures/mid.png" width="700"/>
 </p>
 > Figure: A detailed overview of the various datasets collected to form MID the medical imaging dataset.
 
 
-The link to download MID is [here](https://doi.org/10.20383/103.01017) (COMING SOON!).
+The link to download LUMID is [here](https://doi.org/10.20383/103.01017) (COMING SOON!).
 
 We used MAE to pre-train a ViT-B backbone on the proposed dataset to allow the proposed model to gain useful knowledge of different types of medical image. Hence, the backbone can be used for any medical imaging task and acheive better performance than existing pre-trained models using ImageNet dataset.
 <p align="center">
