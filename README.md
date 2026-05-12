@@ -29,6 +29,13 @@ We used MAE to pre-train a ViT-B backbone on the proposed dataset to allow the p
 > Figure: MedMAE architecture: The process is initiated by randomly
 masking 75\% of the original image and inputting the remaining 25\% of visible patches into the encoder, which captures the latent representations and encodes the patches. Subsequently, the aim of the decoder is to reconstruct the complete image using the encoded and masked patches. The reconstruction loss helps to improve the reconstruction with each iteration.
 
+## Dependencies
+install the `requirements.txt` inside the code folder:
+`pip install -r code/requirements.txt`
+The installed pytorch is CPU only by defualt to install the GPU version:
+`pip uninstall torch torchvision`
+check the website [https://pytorch.org/get-started/locally/](https://pytorch.org/get-started/locally/) and select the specs that matches you PC then copy the `Run this Command` and use it in the terminal to install the GPU pytorch
+
 ## Code
 We used the code in the github repository [MAE](https://github.com/facebookresearch/mae) and trained the model for 1000 epochs on the proposed dataset.
 
