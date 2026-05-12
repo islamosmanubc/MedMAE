@@ -1,0 +1,15 @@
+# Core training dependencies for the MAE/MedMAE scripts.
+# Install CUDA-specific torch wheels from https://pytorch.org/get-started/locally/ if needed.
+torch>=1.8.1,<2.0
+torchvision>=0.9.1,<0.15
+timm==0.3.2
+
+# Data loading, logging, and distributed job submission.
+numpy>=1.19
+Pillow>=8.0
+tensorboard>=2.4
+submitit>=1.3.0
+
+# Demo notebook dependencies.
+matplotlib>=3.3
+requests>=2.25
